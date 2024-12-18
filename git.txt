@@ -43,5 +43,9 @@ Once our git is in statging directory the we need to do git diff --staged
     paste in the git
    And continue with the remote shown
    and last code it wil set up 
+
+
+
+ this i did to create barnch
      
 *
