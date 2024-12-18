@@ -1,0 +1,47 @@
+Git commands
+  
+* git --version         (To get the version)
+* git config --global user.name"Lokesh"(To configure the name in particular git
+*git config --global user.email lokeshdevu@gmail.com(to give our email)
+*git config --global --list  (to get the configured list like name, email)
+
+*Git init (to ctreate a repository)
+*git status (to know the statuis of the rep)
+*git init -b main(to change the brach name)
+*git add fileName (to add the folder into the repository)
+*git log  (to know all the commits)
+*git commit -m "some message"(to commit in to the git repo)
+
+* if we done any changes in the we need to code again from the staging area and then again need to commit
+  * but everytime we cant able to add the file and commit it instead of that we use
+git commit -a -m "this we did mistake three times"
+*git add .     is used to add all the files in the staging area
+* git rm --cached (filename)       is used to delete from the file
+
+ 
+*git diff is used to check the differenece between provious and after written somethinf (to check what is the difference made) we need to do this whithout adding it into the staginf area
+Once our git is in statging directory the we need to do git diff --staged  
+* git clone https link  (will download the github projects but very data consuming)
+
+
+
+
+
+
+
+   To create the git repository in the git hub 
+	*mkdir  folder-name 
+     change to that dir(cd foldername)
+     we need to create repository in git hub
+     and then it will shows some commands follow upto the git remote command
+     then select on ssh and enter 
+     ssh-keygen -o
+    It will show  public key
+    cd to ssh
+    and enter the publication file with .pub
+    type file with .pub(will gernerate the key
+    paste in the git
+   And continue with the remote shown
+   and last code it wil set up 
+     
+*
